@@ -1,5 +1,17 @@
-template-repository (1.0-1) unstable; urgency=medium
+haskell-hslua-marshalling (2.1.0-2deepin1) unstable; urgency=medium
+
+  * add build-type to hslua-marshalling.cabal
+
+ -- bluesky <chenchongbiao@deepin.org>  Tue, 10 Oct 2023 10:16:34 +0800
+
+haskell-hslua-marshalling (2.1.0-2) unstable; urgency=medium
+
+  * Post-NEW source-only upload
+
+ -- Scott Talbert <swt@techie.net>  Fri, 05 Aug 2022 12:12:25 -0400
+
+haskell-hslua-marshalling (2.1.0-1) unstable; urgency=low
 
   * Initial release
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Ilias Tsitsimpis <iliastsi@debian.org>  Wed, 03 Aug 2022 20:55:22 +0300
