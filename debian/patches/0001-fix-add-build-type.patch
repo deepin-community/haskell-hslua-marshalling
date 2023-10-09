@@ -1,0 +1,27 @@
+From 51f4c9552631f985a3ef2cb0c916c78123602be8 Mon Sep 17 00:00:00 2001
+From: bluesky <chenchongbiao@deepin.org>
+Date: Tue, 10 Oct 2023 09:59:05 +0800
+Subject: [PATCH] fix: add build-type
+
+add build-type: Simple to hslua-marshalling.cabal
+
+Log: add build-type
+---
+ hslua-marshalling.cabal | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/hslua-marshalling.cabal b/hslua-marshalling.cabal
+index 5cc118a..b13b50a 100644
+--- a/hslua-marshalling.cabal
++++ b/hslua-marshalling.cabal
+@@ -18,6 +18,7 @@ copyright:           © 2007–2012 Gracjan Polak;
+                      © 2012–2016 Ömer Sinan Ağacan;
+                      © 2017-2022 Albert Krewinkel
+ category:            Foreign
++build-type:          Simple
+ extra-source-files:  README.md
+                    , CHANGELOG.md
+ tested-with:         GHC == 8.0.2
+-- 
+2.33.1
+
